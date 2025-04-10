@@ -7,7 +7,7 @@ This mean send all online players $5000.
 
 > ### Download Links
 SpigotMC is the most official platform with the latest CommandPlus.
-- SpigotMC: https://www.spigotmc.org/resources//
+- SpigotMC: [https://www.spigotmc.org/resources//](https://www.spigotmc.org/resources/commandplus.123938/)
 
 Give me feedback on [Discord](https://discord.gg/UJNAGjuyhS) or [Issues](https://github.com/Ez4p1xEL/NoBuildPlus/issues)!
 
