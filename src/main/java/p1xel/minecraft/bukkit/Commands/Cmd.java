@@ -35,6 +35,7 @@ public class Cmd implements CommandExecutor {
                 for (String path : Locale.yaml.getConfigurationSection("commands").getKeys(false)) {
                     sender.sendMessage(Locale.getMessage("commands." + path));
                 }
+                sender.sendMessage(Locale.getMessage("commands.bar"));
                 return true;
             }
 
