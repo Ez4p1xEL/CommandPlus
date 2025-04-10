@@ -24,6 +24,16 @@ public class CommandPlus extends JavaPlugin {
 
         getServer().getPluginCommand("CommandPlus").setExecutor(new Cmd());
 
+        int pluginId = 25427;
+        new Metrics(this, pluginId);
+
+        // Text from https://tools.miku.ac/taag/ (Font: Slant)
+        getLogger().info("   ______                                          ______  __     ");
+        getLogger().info("  / ____/___  ____ ___  ____ ___  ____ _____  ____/ / __ \\/ /_  _______");
+        getLogger().info(" / /   / __ \\/ __ `__ \\/ __ `__ \\/ __ `/ __ \\/ __  / /_/ / / / / / ___/");
+        getLogger().info("/ /___/ /_/ / / / / / / / / / / / /_/ / / / / /_/ / ____/ / /_/ (__  ) ");
+        getLogger().info("\\____/\\____/_/ /_/ /_/_/ /_/ /_/\\__,_/_/ /_/\\__,_/_/   /_/\\__,_/____/  ");
+
     }
 
 
