@@ -3,13 +3,13 @@ This is a plugin for you to send command to online/group players in one command 
 Example: /commandplus send all economy give %player% 5000  
 economy give %player% 5000 is the original command.  
 This mean send all online players $5000.  
-(Or you may understand it as sending /economy give <player> 5000 to all online players)  
+(Or you may understand it as sending /economy give player 5000 to all online players)  
 
 > ### Download Links
 SpigotMC is the most official platform with the latest CommandPlus.
-- SpigotMC: https://www.spigotmc.org/resources//
+- SpigotMC: https://www.spigotmc.org/resources/commandplus.123938/
 
-Give me feedback on [Discord](https://discord.gg/UJNAGjuyhS) or [Issues](https://github.com/Ez4p1xEL/NoBuildPlus/issues)!
+Give me feedback on [Discord](https://discord.gg/UJNAGjuyhS) or [Issues](https://github.com/Ez4p1xEL/CommandPlus/issues)!
 
 > ### License
 See the [LICENSE](https://github.com/Ez4p1xEL/CommandPlus/blob/master/LICENSE) file for license rights and limitations (MIT).
