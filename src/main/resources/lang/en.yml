@@ -1,0 +1,26 @@
+plugin-name: CommandPlus
+command-plugin-name: commandplus
+commands:
+  bar: '&b&m                              '
+  top: '&b&lCommandPlus by p1xEL'
+  help: '&7/commandplus help &fView help.'
+  send-all: '&7/commandplus send all <command> &fSend command to all online players.'
+  send-group: '&7/commandplus send group <group> <command> &fSend command to players in group.'
+  group-list: '&7/commandplus group <group> list &fView players in group.'
+  group-add: '&7/commandplus group <group> add <player> &fAdd player into group.'
+  group-remove: '&7/commandplus group <group> remove <player> &fRemove player from group.'
+  reload: '&7/commandplus reload &fReload the configuration.'
+
+no-perm: '&b&l%prefix% &8&l| &aYou have no permission to do this!'
+group-not-exist: '&b&l%prefix% &8&l| &cgroup &e%group% &cdoes not exist!'
+player-not-exist: '&b&l%prefix% &8&l| &cplayer &e%player% &cis not in &e%group%&c!'
+player-already-exist: '&b&l%prefix% &8&l| &cplayer &e%player% &cis already in &e%group%&c!'
+wrong-arg: '&b&l%prefix% &8&l| &cIncorrect arguments!'
+player-not-online: '&b&l%prefix% &8&l| &cplayer &e%player% &cis not online!'
+
+all: '&b&l%prefix% &8&l| &aCommand has been sent to all online players successfully!'
+group: '&b&l%prefix% &8&l| &aCommand has been sent to players in group &e%group%&a!'
+add: '&b&l%prefix% &8&l| &aPlayer &e%player% &ahas been added into group &e%group%&a!'
+remove: '&b&l%prefix% &8&l| &aPlayer &e%player% &ahas been removed from group &e%group%&a!'
+reload: '&b&l%prefix% &8&l| &aConfiguration has been reloaded successfully!'
+list: '&b&l%prefix% &8&l| &aPlayers in group &e%group%&a: &e%players%'

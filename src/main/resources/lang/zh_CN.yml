@@ -1,0 +1,25 @@
+plugin-name: CommandPlus
+command-plugin-name: commandplus
+commands:
+  bar: '&b&m                              '
+  top: '&b&lCommandPlus by p1xEL'
+  help: '&7/commandplus help &f查看帮助'
+  send-all: '&7/commandplus send all <指令> &f发送指令至所有在线玩家'
+  send-group: '&7/commandplus send group <组> <指令> &f发送指令至组别内的玩家'
+  group-list: '&7/commandplus group <组> list &f查看组别内的玩家'
+  group-add: '&7/commandplus group <组> add <玩家> &f将玩家加入组别'
+  group-remove: '&7/commandplus group <组> remove <玩家> &f从组别中移除玩家'
+  reload: '&7/commandplus reload &f重载配置文件'
+
+no-perm: '&b&l%prefix% &8&l| &a你没有权限这么做!'
+group-not-exist: '&b&l%prefix% &8&l| &c组 &e%group% &c不存在!'
+player-not-exist: '&b&l%prefix% &8&l| &c玩家 &e%player% &c不在组 &e%group%&c!'
+wrong-arg: '&b&l%prefix% &8&l| &c錯誤的參數!'
+
+all: '&b&l%prefix% &8&l| &a指令已被發送至所有在線玩家!'
+group: '&b&l%prefix% &8&l| &a指令已被發送至在組 &e%group%&a 中的玩家!'
+add: '&b&l%prefix% &8&l| &a玩家 &e%player% &a已被加至組 &e%group%&a!'
+remove: '&b&l%prefix% &8&l| &a玩家 &e%player% &a已從 &e%group%&a 被移除!'
+reload: '&b&l%prefix% &8&l| &a配置文件重載成功!'
+list: '&b&l%prefix% &8&l| &a組 &e%group%&a 中的玩家: &e%players%'
+

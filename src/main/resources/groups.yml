@@ -1,0 +1,10 @@
+default:
+  - 'Ez4p1xEL'
+  - 'LoHK2008'
+  - 'LoHK2012'
+  - 'LoHK2016'
+  - 'LoHK2020'
+  - 'LoHK2024'
+special:
+  - 'PixelDDD'
+  - 'abcdefg'

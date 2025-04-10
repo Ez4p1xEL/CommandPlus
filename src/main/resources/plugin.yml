@@ -1,0 +1,7 @@
+main: p1xel.minecraft.bukkit.CommandPlus
+name: CommandPlus
+version: 1.0
+api-version: 1.13
+commands:
+  commandplus:
+    aliases: [commandp, cp, cplus]

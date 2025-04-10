@@ -1,0 +1,6 @@
+# Version of the configuration
+# DO NOT CHANGE IT!
+configuration: 1
+
+# You may choose en (English), zh_CN (Simplified Chinese), zh_TW (Traditional Chinese)
+language: en

@@ -1,0 +1,16 @@
+plugin-name: CommandPlus
+command-plugin-name: commandplus
+commands:
+  bar: '&b&m                              '
+  top: '&b&lCommandPlus by p1xEL'
+  help: '&7/commandplus help &f查看幫助'
+  send-all: '&7/commandplus send all <指令> &f發送指令至所有在線玩家'
+  send-group: '&7/commandplus send group <組> <指令> &f發送指令至組別內的玩家'
+  group-list: '&7/commandplus group <組> list &f查看組別內的玩家'
+  group-add: '&7/commandplus group <組> add <玩家> &f將玩家加入組別'
+  group-remove: '&7/commandplus group <組> remove <玩家> &f從組別中移除玩家'
+  reload: '&7/commandplus reload &f重載配置文件'
+
+no-perm: '&b&l%prefix% &8&l| &a你沒有權限這麼做!'
+group-not-exist: '&b&l%prefix% &8&l| &c組 &e%group% &c不存在!'
+player-not-exist: '&b&l%prefix% &8&l| &c玩家 &e%player% &c不在組 &e%group%&c'
